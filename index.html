@@ -13,13 +13,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="header-section">
         <div class="logo">
-          <a
+          <a href="./index.html"
             ><img
               src="./images/img-480/logo-header.png"
               width="100"
@@ -27,9 +28,81 @@
           /></a>
         </div>
         <div class="header-burger-menu">
-          <svg><use></use></svg>
+          <button class="burger-menu-icon">
+            <svg width="40" height="30">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
+    <main>
+      <section class="home-hero">
+        <h1 class="home-hero-header-one">Relocating to Cyprus</h1>
+        <h4 class="home-hero-header-four">
+          Seamless – Exceptional – Experience.
+        </h4>
+        <p class="home-hero-text">
+          The captivating Mediterranean island of Cyprus has become a business
+          haven with a flourishing expat community. The strategic location that
+          grants networking opportunities and the stability of being in the EU
+          offers entrepreneurs the abilities they need to thrive.
+        </p>
+        <button class="home-hero-button">Find Out More</button>
+      </section>
+      <section class="home-our-services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <picture>
+              <source
+                srcset="
+                  ./images/dskt/prtf-2-dskt.jpg    1x,
+                  ./images/dskt/prtf-2-dskt-2x.jpg 2x
+                "
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="
+                  ./images/dskt/prtf-2-dskt.jpg    1x,
+                  ./images/dskt/prtf-2-dskt-2x.jpg 2x
+                "
+                media="(min-width: 1000px)"
+              />
+              <source
+                srcset="
+                  ./images/tab/prtf-2-tab.jpg    1x,
+                  ./images/tab/prtf-2-tab-2x.jpg 2x
+                "
+                width="356"
+                height="300"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/img-480/our-services-family-relocation-1x.jpg 1x,
+                  ./images/img-480/our-services-family-relocation-2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./images/img-480/our-services-family-relocation-1x.jpg"
+                alt="Family Relocation"
+                width="380"
+                height="260"
+              />
+            </picture>
+            <h3>Family Relocation</h3>
+            <p>
+              With strategic planning, we simplify the moving process so you and
+              your family can feel safe and confident.
+            </p>
+            <button>Find Out More</button>
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
