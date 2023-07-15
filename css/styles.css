@@ -21,6 +21,15 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
 /* Home Header */
 .burger-menu-icon {
   background-color: transparent;
@@ -90,7 +99,7 @@ ol {
   padding-bottom: 30px;
 }
 
-.home-hero-button {
+.home-button {
   display: flex;
   width: 200px;
   height: 48px;
@@ -113,4 +122,595 @@ ol {
 }
 .home-our-services {
   background: linear-gradient(#828cde, #6d31d0);
+  padding-bottom: 60px;
+}
+.home-our-services-header {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  border-bottom: 4px solid #fdbfa3;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.home-our-services-container {
+  width: 380px;
+  margin: 0 auto;
+}
+
+.home-our-services-container img {
+  border-radius: 19px 19px 19px 0;
+}
+
+.home-our-services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-our-services-item {
+  background-color: white;
+  border-radius: 19px 19px 19px 19px;
+}
+
+.home-our-services-htb {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.home-our-services-item-header {
+  color: #434364;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.home-our-services-item-text {
+  color: #434364;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Home Moving-to-paradise */
+.home-moving-to-paradise-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home-moving-to-paradise-header {
+  color: #434364;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.home-moving-to-paradise-text {
+  color: #434364;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* Home Who-choose-Cyprus */
+.home-who-choose-cyprus-container {
+  min-width: 440px;
+  padding: 60px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home-who-choose-cyprus {
+  background: linear-gradient(#ffeb80, #fdbfa3);
+}
+
+.home-who-choose-cyprus-header {
+  color: #434364;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  padding-bottom: 11px;
+  height: 50px;
+}
+
+.home-who-choose-cyprus-text {
+  color: #434364;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  width: 369px;
+  margin: 0 auto;
+}
+
+.home-who-choose-cyprus-icon-one,
+.home-who-choose-cyprus-icon-two,
+.home-who-choose-cyprus-icon-three,
+.home-who-choose-cyprus-icon-four {
+  width: 100px;
+  height: 100px;
+  border-radius: 800px;
+  margin: 0 auto;
+}
+
+.home-who-choose-cyprus-icon-one {
+  background: linear-gradient(#828cde, #6d31d0);
+  position: relative;
+}
+
+.home-who-choose-cyprus-icon-one img,
+.home-who-choose-cyprus-icon-two img,
+.home-who-choose-cyprus-icon-three img,
+.home-who-choose-cyprus-icon-four img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.home-who-choose-cyprus-icon-two {
+  background: linear-gradient(#fe6f2d, #ffd059);
+  position: relative;
+}
+.home-who-choose-cyprus-icon-three {
+  background: linear-gradient(#2ea3f2, #a651fb);
+  position: relative;
+}
+.home-who-choose-cyprus-icon-four {
+  background: linear-gradient(rgba(255, 185, 175, 0.3), #a651fb);
+  position: relative;
+}
+
+.home-who-choose-cyprus-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+}
+
+.home-who-choose-cyprus-item {
+  width: calc((100% - 20px) / 2);
+}
+
+.home-who-choose-cyprus-item-header {
+  color: #6d31d0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-top: 24px;
+}
+
+.home-who-choose-cyprus-item-text {
+  color: #434364;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* Home Who-we-are */
+.home-who-we-are {
+  background: linear-gradient(#828cde, #6d31d0);
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home-who-we-are-header {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.home-who-we-are-border {
+  border: 2px solid #fdbfa3;
+  width: 280px;
+}
+
+.home-who-we-are-container-one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.home-who-we-are-text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.home-who-we-are-button {
+  display: flex;
+  width: 180px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffdb80;
+
+  box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+  color: #6d31d0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.home-who-we-are-container-two {
+  border-radius: 20px;
+  opacity: 0.800000011920929;
+  background-color: #fff;
+  box-shadow: 0px 14px 10px 0px rgba(0, 0, 0, 0.25);
+  height: 600px;
+}
+
+.home-who-we-are-container-two img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 20px;
+}
+
+.home-who-we-are-header-two {
+  color: #6d31d0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-top: 14px;
+  text-align: center;
+}
+
+.home-who-we-are-text-two {
+  color: #434364;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.home-who-we-are-button-two {
+  display: flex;
+  width: 180px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffdb80;
+
+  box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+  color: #6d31d0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Home How-we-make  */
+.home-how-we-make {
+  background: linear-gradient(#fefc9e, #fdbfa3);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.home-how-we-make-header {
+  color: #434364;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.home-how-we-make-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.home-how-we-make-item {
+  width: calc((100% - 20px) / 2);
+}
+
+.home-how-we-make-icon-one,
+.home-how-we-make-icon-two,
+.home-how-we-make-icon-three,
+.home-how-we-make-icon-four {
+  width: 100px;
+  height: 100px;
+  border-radius: 800px;
+  margin: 0 auto;
+}
+
+.home-how-we-make-icon-one {
+  position: relative;
+  background: linear-gradient(to right, #828cde, #00b8c3);
+}
+
+.home-how-we-make-icon-two {
+  position: relative;
+
+  background: linear-gradient(to right, #fe6f2d, #ffd059);
+}
+
+.home-how-we-make-icon-three {
+  position: relative;
+  background: linear-gradient(to right, #2ea3f2, #a651fb);
+}
+
+.home-how-we-make-icon-four {
+  position: relative;
+  background: linear-gradient(rgba(255, 185, 175, 0.3), #a651fb);
+}
+
+.home-how-we-make-icon-one img,
+.home-how-we-make-icon-two img,
+.home-how-we-make-icon-three img,
+.home-how-we-make-icon-four img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.home-how-we-make-item-header {
+  padding-top: 24px;
+  color: #6d31d0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.home-how-we-make-item-text {
+  color: #434364;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* Home Contact */
+.home-contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(109, 49, 208, 0.1) 0%,
+    rgba(109, 49, 208, 0.21) 28.65%,
+    rgba(109, 49, 208, 0.47) 53.13%,
+    #6d31d0 100%
+  );
+  display: flex;
+  width: 480px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-contact-section-one {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-contact-section-one-header {
+  color: #434364;
+  text-align: center;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.home-contact-section-one-border {
+  border: 2px solid #fdbfa3;
+  width: 380px;
+}
+
+.home-contact-section-two-icon {
+  position: relative;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #6d31d0 0%, #ab80ef 100%);
+}
+
+.home-contact-section-two-icon img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+}
+
+.home-contact-section-two {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.home-contact-section-two {
+  color: #6d31d0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.home-contact-section-three {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-contact-form {
+  min-width: 400px;
+  height: 750px;
+  flex-shrink: 0;
+
+  border-radius: 60px;
+  opacity: 0.5;
+  background: #ffdb80;
+  backdrop-filter: blur(250px);
+}
+
+.home-contact-form-header {
+  color: #434364;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding-top: 34px;
+}
+
+.home-contact-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.home-contact-form-input-styles {
+  padding-left: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 380px;
+  height: 47px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(28, 37, 44, 0.08);
+}
+
+.home-contact-form-input-styles-textarea {
+  padding-top: 18px;
+  padding-left: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 380px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(28, 37, 44, 0.08);
+}
+
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
+.checkbox-input:focus + .checkbox-form > .checkbox-span {
+  border-color: red;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-input:checked + .checkbox-form > .checkbox-span {
+  background-color: white;
+  border: none;
+  fill: #6d31d0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.checkbox-form {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: red;
 }
