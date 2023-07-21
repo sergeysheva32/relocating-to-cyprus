@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/test.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="slideshow-container">
+        <div class="home-popular-cities">
+          <ul class="home-popular-cities-list">
+            <li class="home-popular-cities-items mySlides fade">
+              <img src="./images/img-480/home-nicosia-1x.jpg" />
+              <p class="home-popular-cities-text">Nicosia</p>
+            </li>
+            <li class="home-popular-cities-items mySlides fade">
+              <img src="./images/img-480/home-limassol-1x.jpg" />
+              <p class="home-popular-cities-text">Limassol</p>
+            </li>
+            <li class="home-popular-cities-items mySlides fade">
+              <img src="./images/img-480/home-paphos-1x.jpg" />
+              <p class="home-popular-cities-text">Paphos</p>
+            </li>
+            <li class="home-popular-cities-items mySlides fade">
+              <img src="./images/img-480/home-larnaka-1x.jpg" />
+              <p class="home-popular-cities-text">Larnaka</p>
+            </li>
+          </ul>
+        </div>
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </main>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
